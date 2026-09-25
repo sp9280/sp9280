@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,25:0d1117,60:1a0a00,100:3d1200&height=280&section=header&text=SUBHRANEEL%20PAL&fontSize=58&fontColor=ff6b00&fontAlignY=40&desc=%F0%9F%90%9B%20Bug%20Hunter&descSize=15&descAlignY=62&descColor=ff4444&animation=twinkling&stroke=ff6b00&strokeWidth=2" />
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,25:0d1117,60:1a0a00,100:3d1200&height=280&section=header&text=SUBHRANEEL%20PAL&fontSize=58&fontColor=ff6b00&fontAlignY=40&desc=%F0%9F%90%9B%20&descSize=15&descAlignY=62&descColor=ff4444&animation=twinkling&stroke=ff6b00&strokeWidth=2" />
 
 
 <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/9be4d344-6782-461a-b5a6-32a07bf7b34e" width="480" alt="animated hello in multiple languages">
