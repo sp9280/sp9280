@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="800" height="220">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000000"/>
+      <stop offset="0.6" stop-color="#1a0a00"/>
+      <stop offset="1" stop-color="#3d1200"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd9a0"/>
+      <stop offset="1" stop-color="#ff6b00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="220" fill="url(#sky)"/>
+
+  <!-- stars -->
+  <g fill="#ffffff">
+    <circle cx="60" cy="30" r="1.5"><animate attributeName="opacity" values="1;0.1;1" dur="2s" repeatCount="indefinite"/></circle>
+    <circle cx="180" cy="60" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="25" r="1.5"><animate attributeName="opacity" values="1;0.2;1" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="420" cy="55" r="1"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="540" cy="20" r="1.5"><animate attributeName="opacity" values="1;0.1;1" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="660" cy="70" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="750" cy="35" r="1.5"><animate attributeName="opacity" values="1;0.3;1" dur="2.8s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- moon -->
+  <circle cx="680" cy="55" r="45" fill="url(#moon)">
+    <animate attributeName="r" values="42;48;42" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="680" cy="55" r="20" fill="#ffd9a0"/>
+
+  <!-- hills -->
+  <path d="M0 170 Q150 120 300 165 T600 160 T800 150 V220 H0 Z" fill="#120700"/>
+  <path d="M0 190 Q200 160 400 185 T800 180 V220 H0 Z" fill="#0a0400"/>
+
+  <!-- fireflies -->
+  <g fill="#ff6b00">
+    <circle r="2.5">
+      <animateMotion dur="9s" repeatCount="indefinite" path="M120 150 Q160 120 200 150 T280 140"/>
+      <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="2.5">
+      <animateMotion dur="11s" repeatCount="indefinite" path="M450 160 Q500 120 550 150 T640 130"/>
+      <animate attributeName="opacity" values="1;0;1" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="2">
+      <animateMotion dur="8s" repeatCount="indefinite" path="M320 170 Q360 140 400 165 T470 150"/>
+      <animate attributeName="opacity" values="0;1;0" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- swaying grass -->
+  <g stroke="#ff6b00" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.8">
+    <path d="M40 205 Q38 190 44 180"><animate attributeName="d" values="M40 205 Q38 190 44 180;M40 205 Q44 190 38 180;M40 205 Q38 190 44 180" dur="3s" repeatCount="indefinite"/></path>
+    <path d="M200 205 Q198 190 204 178"><animate attributeName="d" values="M200 205 Q198 190 204 178;M200 205 Q204 190 198 178;M200 205 Q198 190 204 178" dur="2.6s" repeatCount="indefinite"/></path>
+    <path d="M360 205 Q358 190 364 180"><animate attributeName="d" values="M360 205 Q358 190 364 180;M360 205 Q364 190 358 180;M360 205 Q358 190 364 180" dur="3.4s" repeatCount="indefinite"/></path>
+    <path d="M520 205 Q518 190 524 178"><animate attributeName="d" values="M520 205 Q518 190 524 178;M520 205 Q524 190 518 178;M520 205 Q518 190 524 178" dur="2.8s" repeatCount="indefinite"/></path>
+    <path d="M700 205 Q698 190 704 180"><animate attributeName="d" values="M700 205 Q698 190 704 180;M700 205 Q704 190 698 180;M700 205 Q698 190 704 180" dur="3.2s" repeatCount="indefinite"/></path>
+  </g>
+
+  <!-- crawling bug -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" from="-60 0" to="860 0" dur="16s" repeatCount="indefinite"/>
+    <text font-size="40" y="200" text-anchor="middle">🐛
+      <animate attributeName="y" values="200;193;200" dur="0.6s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- name -->
+  <text x="400" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="bold" fill="#ff6b00" letter-spacing="4">SUBHRANEEL PAL</text>
+</svg>
